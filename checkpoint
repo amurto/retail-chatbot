@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Amurto\\pb\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Amurto\\pb\\model.tflearn"
