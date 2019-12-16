@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat</title>
+    <link rel="stylesheet" href="../static/chat.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"
+    ></script>
+    <script>
+      $(document).ready(function() {
+        $("#map").load("/map");
+      });
+    </script>
+  </head>
+  <!--Coded With Love By Mutiullah Samim-->
+  <body>
+    <div id="map"></div>
+    <img id="botpic" src="../static/chatbot.png" />
+    <div class="container-fluid h-100">
+      <div class="row justify-content-center h-100">
+        <div class="col-md-8 col-xl-6 chat">
+          <div class="card">
+            <div class="card-header msg_head"></div>
+            <div class="card-body msg_card_body" id="chat-parent">
+              <!-- <div class="d-flex justify-content-start mb-4">
+                <div class="msg_cotainer">
+                  Hi, how are you samim?
+                </div>
+              </div>
+              <div class="d-flex justify-content-end mb-4">
+                <div class="msg_cotainer_send">
+                  Hi Maryam i am good tnx how about you?
+                </div>
+              </div>
+               -->
+            </div>
+            <div class="card-footer">
+              <div class="input-group">
+                <div class="input-group-append">
+                  <span class="input-group-text attach_btn"></span>
+                </div>
+                <textarea
+                  name="a"
+                  id="msgbox"
+                  class="form-control type_msg"
+                  placeholder="Type your message..."
+                ></textarea>
+                <div class="input-group-append">
+                  <span class="input-group-text send_btn"
+                    ><a
+                      class="fas fa-location-arrow"
+                      href="javascript:void();"
+                      id="calculate"
+                    ></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="PhotoGallery" style="width:700px; height: 240px; margin-left:50%; margin-top:-260px; border: 1px">
+      <marquee scrollamount="3" direction="left">
+       <img src="../static/promo/1/1.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/1/2.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/1/3.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/2/1.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/2/2.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/2/3.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/3/1.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/3/2.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/3/3.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/clothing/1.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/clothing/2.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/clothing/3.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/cosmetics/1.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/cosmetics/2.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/cosmetics/3.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/frozen/1.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/frozen/2.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/frozen/3.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/fruits/1.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/fruits/2.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/fruits/3.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/groceries/1.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/groceries/2.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       <img src="../static/promo/groceries/3.jpg" width="240px" height="200px" name="Images" style="border-radius: 15px" />
+       </marquee>
+      </div>
+
+    <script src="../static/chat.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link
+      href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Chatbot</h3>
+      </div>
+      <hr />
+      <div>
+        <p>
+          <label id="list"> </label>
+
+          <input type="text" size="15" name="a" /><a
+            href="javascript:void();"
+            id="calculate"
+            >send</a
+          ><br />
+
+          <script type="text/javascript">
+            function passResponse(message, response) {
+              localStorage.setItem("message", message);
+              localStorage.setItem("response", response);
+            }
+
+            $(function() {
+              $("a#calculate").bind("click", function() {
+                $.getJSON(
+                  "/_add_numbers",
+                  {
+                    a: $('input[name="a"]').val()
+                  },
+                  function(data) {
+                    // $("#result").text(data.result);
+                    passResponse(data.result, data.op);
+                  }
+                );
+                return false;
+              });
+            });
+          </script>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
