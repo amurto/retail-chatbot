@@ -45,7 +45,7 @@ python app.py
 
 Open a web browser and go to
 ```bash
-http://loaclhost:5000
+http://localhost:5000
 ```
 
 # License
