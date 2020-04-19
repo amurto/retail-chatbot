@@ -1,0 +1,95 @@
+{"intents": [
+        {"tag": "medicines",
+         "patterns": ["frist aid kit","Dressing Cotton","Antibiotic","Antidiarrheal","Aspirin","Antacid","Band-aids","Medical","Pain reliever","crocin","bandage","acetone","Actrapid insulin","Aluminium forearm crutches adult","Aluminium underarm crutches adult","amoxil capsule","amoxil syrup","Apo-Diazepam tab","Aspro clear tablet","Augmentian forte duo tabs","azithromycin tablets","bis-pectin suspension","bonja mouth ulcer gel ","ulcer gel","carbosorb X activated charcoal","ceclor suspension bottle","codapane forte tablets","cyclogyl","depp heat","Denocorub ice therapy tub","DermAid  sot cream ","Move","Iodex","Move roll on","Ego moov insect","relispray","move spray","Ego pinetarsol","Eucalyptus oil","gastolyte Orange","Eno","Glen spray","FLuoxetine Caps","zandu balm ","Balm","Amrutanjan balm","Hair oil","navratna","indulekha","Himgange","parachute coconut hair oil","Bajaj Almond","Finn naturals","Indulekha Bringha Hair oil","Dabur almond oil","johnsons baby care kit","baby massage oil"],
+         "responses": ["Aisle id 1"],
+         "context_set": ""
+        },
+        {"tag": "bakery",
+                "patterns": ["cake", "pastry", "patties", "hotdog", "burger bread","Chocolate cake","cake","candy","jelly","rusk toast","mik rusk","pastry","chocolate pastry","Muffin","cupcakes","Ice cream raw materials","desserts","Strawberry cake","vanilla cake","Pineapple cake","Mouth freshner","flavoured candies","toffees","theme cake","black forest cake","confectionery products","wedding cakes","brown bread","puff pastry","butterscotch cake","wafers","sweet mukhwas","suji rusk","cream roll","candy lollipop","mango flavoured candy","fruit flavoured candy","eggless cake","garlic bread","cheesecake","orange candy","sugar candies","plum cake","custard powder","pizza crust","butter toast","coconut candy","sweet buns","baking mixes"],
+                "responses": ["Aisle id 2"],
+                "context_set": ""
+        },
+        {"tag": " pets",
+                "patterns": ["Dog food","Cat food","Fish food","Birds food ","Pedigree","Pedigree Professional Starter Mother and Pup","Pedigree Gravy Puppy Chicken and Rice","Pedigree Senior Chicken and Rice","Grain zero puppy dry food","grain zero adult dry food ","Drools Chicken and Egg Adult Dog Food","Drools Maintanance Adult Dog Food","Kennel Kitchen Chicken and Liver in Haldi, Grain Free Dog ","Goodness Turkey, Sweet Potato & Cranberry Grain Free Adult Dog Food","whiskas Adult Dry","TetraBits","optimum Cichlid","Whiskas kitten dry catfood","Schesir Kitten Wet Cat Food Chicken Fillets","Meat Up Kitten Cat Food","Boltz Bird Food for Budgies","Boltz Food for Cockatiel & Lovebird","Nature Forever Bird Feeder Mix","PetNest Bird Feeder Mixed Seed Bird Food","Happy Tails Kangni Seed Bird Food","JiMMy Bird Food Pack for Cockatiel","YOGIPET Bird Food","YOGIPET Striped Sunflower Seed"],
+                "responses": ["Aisle id 3"],
+                "context_set": ""
+        }, 
+        {"tag": "groceries",
+                "patterns": ["biscuit", "tea", "coffee", "atta", "maida", "daal","bread","cheese","Bread","meat","Seafood","pasta","Oils","Sauces","salad dressings","Condiments","cereals","Breakfast food","Soups","Canned Foods","Dairy","Eggs","Snacks","crackers","Soft drinks","Cooking oil","Butter","Yoghurt","Salt","pepper","Herbs & spices","stock cubes","Honey","Vinegar","Sugar","oats","unsweetened granola","pickles","garlic paste","Basil","Oregano","Coriander","Cumin","Stock cubes","Honey","Vinegar","sugar","Boullian cubes","instant potatoes","lemon juice","Mac & cheese","Olive oil ","Pancake","Waffle mix","peanut butter","vegetable oil",
+               "Applesauce","Baked beans","chilli","olives","tinned meats","veggies","Basil","Black pepper","cilantro","cinnamon","ginger","mint","oregano","paprika","parsley","Red pepper","spice mix","Vanilla extract","cottage cheese","Milk","Sour cream","Whipped cream","Bleu cheese","cream cheese","feta","goat cheese","mozzarella cheese","ricotta","Sandwich slices","Swiss","Bacon","Sausage","Beef","Chicken","Turkey","hot dogs","lunchmeat","Red wine","Rum","sake","soda pop","sports drink","Buns","Rolls","Cake","cookies","Donuts","pastries","fresh bread","sliced bread","peta bread","baking powder","Bread crumbs","Brwonie mix","chocolate chips","flour","sugar substitute","yeast","Aluminium foil","Napkins","Non-stick spray","paper towels","plastic wrap","Wax paper",
+               "Air freshners","garbage bags","glass cleaner","Mop head","Sponges","Dish Soap"],
+                "responses": ["Aisle id 4"],
+                "context_set": ""
+        },
+{"tag": "fruits and vegetables",
+         "patterns": ["potato", "onion", "apple", "carrot", "banana", "mango", "orange","Asparagus","Broccoli","carrots","cauliflower","celery","corn","cucumbers","lettuce","greens","Mushrooms","peppers","potatoes","spinach","sqash","zucchini","tomatoes","avocados","berries","cherries","grapefruit","grpes","kiwis","lemons","melon","oranges","watermelon","Cantelope","dates","figs","lychee","mangosteen","papaya","peaches","peers","pineapples","plantains","plums","pomogranate","quince","strawberries","bamboo shoots","beets","bell peppers","bok choy","cabbage","carrots","cassava","cauliflower","celery","chard","collard greens","daikon","eggplant","endive","jicama","kale","kohlrahi","leaf luttace","nopales","okra","Peas","radishes","spinach","Sprouts","sweet potatoes","taro","tormatillo","water chestnuts","watercress","zucchini"],
+         "responses": ["Aisle id 5"],
+         "context_set": ""
+        },
+       
+        {"tag": " toiletries",
+                "patterns": ["Toiletry Bag","Pocket-Sized Lotion"," Mens Deodorant Towelettes"," Womens Deodorant Towelettes","Solid Sunscreen"," Solid Facial Cleanser","Toothbrush","razors","Men Shampoo","Women Shampoo","Travel Bottles","Makeup Removing Cleanser"," Organic Rosewater Spray ",
+                        "Anti-Frizz Spray"," Leave-in Conditioner","Solid Shampoo","hand sanitizer","Bathing Soap","Acne Gel","Perfume","Chest White Strips","First Aid Kit","Face mist","Towel","toothpaste","Toilet papers","Colgate","Pepsodent","Meswak","Colgate Maxfresh","close up","Neem Active","Colgate Swarna Vedshakti",
+                        "Himalaya Herbals Complete Care Toothpaste ","Sensodyne Sensitive Toothpaste ","Head & Shoulders","Head & Shoulders Cool Menthol","Park Avenue","Nivea Men Shampoo","Dove","Salon Style Hair ","pantene","Indulekha Bringha Anti Hair Fall ","laureal","sunsilk","tressemme","Beer Shampoo","lux","Lifeboy","cinthol","Dettol","Santoor","Pears","dettol liquid handfill","Mysore Sandal Soap","Medimix Ayurvedic","Harpic Toilet cleaner ","Harpic Bathroom Cleaner",
+                        "Harpic Extra Strong Bathroom Cleaning Spray","Harpic Flushmatic In-cistern Toilet Cleaner","Nivea men Shaving Foam","Gillette MACH3","Bombay Shaving Company Beard Growth Oil","Bombay Shaving Cream","Spicemen","Vi-John","Park Avenue Cool Blue Shaving Cream","Denim Shaving Cream"],             
+                "responses": ["Aisle id 6"],
+                "context_set": ""
+        },
+        {"tag": "frozenfood",
+                "patterns": ["fish", "mutton","Frozen fries","Frozen pizza","fish fingers","Nuggets","kashi blueberry waffles","American sweet corn","Fenugreek","Pineapple cubes","strawberry cubes","orange cubes","Mango cubes","Custard apple cubes","pomegranate cubes "],
+                "responses": ["Aisle id 7"],
+                "context_set": ""
+        },
+        {"tag": "cosmetics",
+                "patterns": ["Face Primer","Foundation","BB cream","Concealer","Blush","Highlighter","Bronzer","Setting Spray","Setting Powder","Eye Primer","Eyeshadow","Eyeliner"," Lip Gloss","Lipstick"," face brush"," fan brush",
+                        " fluffy powder brush","  eyeshadow blender brush"],
+                "responses": ["Aisle id 8"],
+                "context_set": ""
+        },
+
+        {"tag": "jewellery",
+                "patterns": [" gold Necklaces"," goldEarings","2 Tone gold Hearts","gold rings","Gold Bracelets","oval neckless","Oval earings"," gold cufflings","molecular Bliss gold Hexagons"," gold Lapel Pins","Diamond bracelets","Diamond rings ","Diamond nose pin","Ornate floral Stud Earnings","Pine Adjustable Ring","gold bangels","Gold Pendants","Diamond Pendants","gold mangalsutra","GOld chains","Gold neckware","diamond neckware set","gold coins","gold biscuits","gold nose pins","diamond set","imitation jewellery","kundan jewellery","Antique Bangels","Antique Earings","Indo-western Earings","Antique Pendant set with Mhatte gold plating","South Indian Pendant set with Mhatte gold plating","Bangels with 2 tone plating"],
+                "responses": ["Aisle id 9"],
+                "context_set": ""
+        },
+
+        {"tag": " books",
+                "patterns": ["Art & Music","Biographies","Buisness","Kids","COmputer & tech","Cooking","Hobbies & Crafts","Edu & Reference","Health & Fitness","History","Home & Garden","Horror","Entertainment","Literature & Fiction","Medical","Mysteries","Parenting","Social Sciences","Religion","Romance","Science & Math","Sci-Fi & fantasy","Self-Help","Sports","Travel","True Crime","Westerns","Music","painting","Peforming arts","Photography","Sculpture","Comic Books","comic Strips","Dark Horse","Dc Comics","Fantasy Books","Finance","Economics","Industries","Action and Adventure","Coloring Books","Activity books","Dictonaries","Databases","Cad","Baking Books","Culinary Arts","Catalogs","Colleges","Education","Biographies","GLBt books","Family Books","History","literature and Fiction","Health & Fitnes","Aging","Children's Health","Disease & Ailments","Medieval","Middle Eastern","Military","Modern","Native American","Architecture","Flowers","Fruit","Home Decorating","Home improvement","Ghosts","Paranormal","Supernatural","Vmpires","Zombies","Entertainers","Games","Humor","Brain Teasers","Movies","Foreign Language",
+                "Genre Fiction","HIstory & Critism","Poetry","WOrld Literature","Administration","Allied Health","Basic Sciences","Clinical","Dentistry","onspiracy","Crime","Detective","Mysteries","Suspense","Family Relationships","Fertility","Infants","Pregnancy & childbirth","Special Needs","Anarchy","Canadian Politics","Civil Rights","Socialism","Comparitive Politics","Agnosticism","Astrology","Atheism","Buddhism","Christian","TIme Travel","Vampires","Western","Contempary","Erotics","Agriculture Sciences","Anatomy","Animals","Astronomy","Biology","Role playing","Anthologies","Horror","Humor","Space","Abuse","Addictions","Anger Management","Anxieties & phobias","Social Skills","Soccer","Training","Survival Skills","Water Sports","Winter Sports","Being a Teen","Fantasy","Historical FIction ","Hobbies","Teen","Travel","Africa","Asia","Canada","Caribbean","Europe","Famous Criminals","Murder & Mayhem","Orgsnized Crime","serial Killers","Criminal law ","Native American ","Prairie Settlement","Cowboys","GOld Rush","Reading Rewards","Life","Journals","Breaking Tree","The rose Thatt Grew","Take me home","Scar Tissue",
+                "Dolly","Somebody in love","Musci:An Appreciation","Puff,the Magic Dragon","A History of Western","Who was Leonardo da?","Water School","Donna Dewberry","THe art of painting Animals on Rocks","The Encyclopedia of water color","The Artist Handbook of ","Best of the Joy of Painting with Bob","Color:A Natural History of the","The BIg Book of Painting Nature in","Van Gogh","Zoom","The art of Bev Doolittle","Screenplay","Tales:from a not-so","Amusing to ourselves","Naruto,VOl.3:dreams","Death Note:Tristess","Wonderrock","Love Hina ","Fushigi Yugi","Samural Deeper Kyo","Watchmen","The Sandman","Roard to perdiction ","kingdom COme","The Big  Book of Weirdos ","The biig Book of Hoaxes","Gon","Rose Christmas","Artisan Bread","the Cake Mix Doctor","The pie and PAstry Bible","Crispin:The Cross Of lead","The Door in Wall","The three THeban Plays","John Berger"," E.H. Gombrich"," Austin Kleon"," Julia Cameron","Harry Potter","Jk Rowling","william Shakespeare","George Orwell","Virginia Wolf","Ernest Hemingway","william Faulkner","Ayn Rand","James Joyce","JD Salinger","Oscar Wilde","James Joyce","Fyodor DostoEvsky",
+                "William Falkner","Honore de Balzac","Alexandro Dumas","JAne Austen","Charles Dickens","Charlotte Bronte","Henry David Thoreau","Emily Bronte","George Eliot","Lewis Caroll","Mark Twin","Oscar Wilde ","Kenneth Graham","George Bernard Shaw","Sir Arthur Conan Doyle","Beatrix Potter","Marcel Proust","William Somerset Maughan"],
+                "responses": ["Aisle id 10"],
+                "context_set": ""
+        } ,
+
+        {"tag": " stationeries",
+                "patterns": ["pencil Case","Apsara Writing Kit","Blue And Black MDF Printed Clipboard","Blue Unisex New Hobby Kit"," Wooden Black Board Set,Plastic Exam Boards","Answer Sheets","Pencil BOx","School Stationery set","Notebook","Plastic Paper Cutter for kids","Expert Color Dish","CraftDev Clay Dough Modeling Set for Kids","Clays","Drawing Books","CLip Board","Stapler pins","Pouch","Exam Pad","Stensils","Men Cork Clip Board","School Register","Camlin Multicolor Toolkit","Polo","Jumbo Erasers","Doms Mathematical Instruments","Color Box","Exam pad","Natraj","Doms","Water Bottles","calculators","Composition Notebooks","classroom Decoration","Scales","Exercise Books","White Board Marker","A4 size Paper","A3 Size Paper","Rough Paper Rim","Legal Size Paper","ball pen","Add gel pen","reynolds pen ","Refill","Refill Add gel","Refill Reynolds","Uniball Vision needle fine","Board pin ","U clip","Brown Tape – 2","Cello Tape","Sharpener","Fevi Stick","Cheque Issue Register","Dispatch Register ","Stock Register ","Cash Book With Hard Board Cover","Pin Container","U clip","Double Punch","Single punch","Plane file Cover","File cover with Tag lamination","Clip File cover","index file","Plastic Folders with clip","Plastic Folders L Shape","Chain Folder ","Button Folder ","Executive file folder","Executive file folder","Permanent Marker","OHP marker Black in color","Sketch Pen "," Paper Cutter"," High Lighter Multicolor","Flag Multicolor","Sticky pad","Tag","Dak Pad","Photo Album","Stamp pad","Stamp pad ink","Stapler Pin remover","Guard File","Visiting Card Holder","Telephone Diary","Carbon paper","Pen Stand single","White ink pen","Paper Tray"," Cadak with File Board"],
+                "responses": ["Aisle id 11"],
+                "context_set": ""
+        } ,
+
+        {"tag": "clothing",
+         "patterns": ["underwears","female jeans", "female underwear", "male underwear", "male jeans", "shoes", "shirt", "gown","Casuals","party wear","sherwanis","Kurta payjama","Dhoti","Khaki dress","baby suit ","Armwear","belts","coats","safaris","Headgear","Hoslery","Jackets","knee clothing","masks","neckwear","one-piece suits","outerwear","ponchos","robes & cloaks","royal attire","saris","shawls and wraps","skirts","sports clothing","tops","trousers","shorts","undergarments","wedding clothing","Apron","Ankel length pants","baby doll dress","armlet","baggy pants","ball gown","balmacaan","bathing cap","bathing suit","burqa","carpenter suit","cocktail dress"],
+         "responses": ["Aisle id 12"],
+         "context_set": ""
+        },
+
+        {"tag": "footwear",
+                "patterns":["Chukka boots","Combat boots","Cowboy boots","Derby bootsFashion boots","Go-go bootsHiking boots","Kinky bootsMotorcycle boots","MuklukPlatform boots","Riding boots","Russian boots","Sailing boots","SeabootsTabi boot","Tanker boots","Thigh-length boots","Ugg boots","Valenki","Veldskoen","Waders","Wellington boots","Winklepickers","shoes","Party shoes","school shoes","athelatic shoes","diabetic shoes","galoshes","kitten heels","derby shoes","oxford shoes","brogues","high-tops","loafers","mary janes","monks","mules","pimsoll shoes","skate shoes","sneakers","tap shoes","toe shoes","kolhapuri chappals","peshawari chappal","flip-flops","slide","worishofer","slippers","soocks","ballet shoes","boat shoes","climbing shoes","clogs","football foots","sabaton","safety footwear","ski boots","snowshoes","surgical shoe","pointe shoe","Swimfims","Anklets","Bobby socks","diabetic socks","footwraps","knee highs","toe socks ","tabi","boot polish","Cherry plish","liquid polish","Cherry liquid polish","Canvas"],
+                "responses": ["Aisle id 13"],
+                "context_set": ""
+               },
+        {"tag": "Home Appliances",
+                "patterns": ["mobile", "laptop", "pc", "computer", "video game console", "iphone11","Led tv","Lcd tv","Washing machines","toaster","Geezer","Oven","Refrigarator","Thermos","electric mixers","meat grinders","coffe grinders","deep fryers","herb grinders","food processors","waffle irons","blenders","electric kettles","dough blenders","rice cookers","exhaust hoods","radio receivers","Cd","VCR","DVD players","digital camera","camcorders","still cameras","clocks","alarm clocks","video game consoles","HiFi","HOme theatre","telephones","answering machines","juice maker","Air conditioning","Air ioniser","Blower","CLothes Dryer","Dehumidifier","Dishwasher","Electric blanket","Electric drill","Elctric water boiler","Electric heater","Garbage dsiposer","hair dryer","hand mixer","humidifier","icemaker","ice cream maker","Lawn mowe,'lighter","Sewing machine","Vaccum cleaner","Water cooler","Voltas","LG","Whirpool","Prestige","Samsung","panasonic","Daikin","Haier","Godrej","IFB","Bosch","Hitachi","sony","Toshiba","Blue star","Philips","Bajaj","Morphy Richards","Havells","usha","inalsa","pigeon"],
+                "responses": ["Aisle id 14"],
+                "context_set": ""
+        },
+
+        {"tag": "toys",
+         "patterns": ["board game", "acion figure", "racing car", "beyblade","ps2","ps3","ps4","psp","fifa","game CD's","puzzles","teddy bear","tranformer","B-daman","digital pets","evel knieval action figure","GI joe","My little poney","toy cars","Hot wheels","Corgi toy cars","dinky toy cars","matchbox toy cars","tonka toy cars","Errector set","knex","lego","lincoln logs","marklin","meccano","mega blocks","rasti","rokenbok","stickle bricks","stikfas","tinkertoy","zaks","zome","Construvtion toy","creative toys","baby doll","amish doll","barbie doll","bisque doll","fashion doll","paper doll","ant farm","lego mindstorms","qfix robot kits","Digital pet","entertinment robot","usb toy","playstation","game boy","candy land","chuttes and ladders","jigsaw puzzle ","Mr.potato head","tangrams",
+        "chinese y0-yo","frisbee","gyroscope","pinwheel","Fidget spinner"],
+         "responses": ["Aisle id 15"],
+         "context_set": ""
+        }
+   ]
+}

@@ -1,5 +1,5 @@
 import numpy as np
-from vc import results
+from chatbot import results
 from flask import Flask, render_template, request, jsonify
 # Initialize the Flask application
 app = Flask(__name__)
@@ -15,7 +15,7 @@ def map():
     return render_template('map.html')
 
 
-@app.route('/_add_numbers')
+@app.route('/chat_with_bot')
 def predict():
     print("Start talking with the bot (type quit to stop)!")
     inp = request.args.get('a')

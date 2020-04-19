@@ -62,7 +62,7 @@ window.addEventListener("keydown", event => {
 $(function() {
   $("#calculate").bind("click", function() {
     $.getJSON(
-      "/_add_numbers",
+      "/chat_with_bot",
       {
         a: $('textarea[name="a"]').val()
       },
