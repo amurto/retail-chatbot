@@ -1,5 +1,5 @@
 flask == 1.1.2
 nltk == 3.5
 numpy == 1.18.2
-tensorflow == 2.1.0
+tensorflow == 2.5.1
 tflearn == 0.3.2
